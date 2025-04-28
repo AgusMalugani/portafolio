@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaReact, FaJava, FaTasks } from 'react-icons/fa';
+import { FaHtml5, FaJs, FaNodeJs, FaReact, FaJava } from 'react-icons/fa';
 import { SiTypescript, SiSpringboot, SiNestjs, SiPostgresql, SiMysql, SiExpress } from 'react-icons/si';
 import { IoLogoGithub } from 'react-icons/io';  // Para GitFlow
+import logoJWT from "../assets/jwt-3.svg"
 
 function Technologies() {
   return (
@@ -82,6 +83,11 @@ function Technologies() {
           <div className="text-center text-gray-600 dark:text-gray-300">
             <IoLogoGithub className="text-5xl mx-auto mb-4 text-black" />
             <p>GitFlow</p>
+          </div>
+
+          <div className="text-center text-gray-600 dark:text-gray-300">
+            <img src={logoJWT} alt="JWT" className="h-16  text-5xl mx-auto mb-4 text-black" />
+            <p>JWT</p>
           </div>
         </div>
       </div>

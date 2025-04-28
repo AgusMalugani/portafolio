@@ -9,12 +9,15 @@
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
   }
 
-  .light-theme h2, h3 {
-    color: rgb(116, 114, 114);
+  .light-theme h2 {
+    color: rgb(59, 59, 59);
   }
 
+  .light-theme h3 {
+    color: rgb(59, 59, 59);
+  }
   .light-theme p {
-    color: rgb(85, 84, 84);
+    color: rgb(39, 38, 38);
   }
 
 
@@ -22,7 +25,7 @@
   
   /* Tema oscuro */
   .dark-theme {
-    background-color: #0a1128; /* Fondo azul oscuro */
+    background-color: #04060f; /* Fondo azul oscuro */
     color: #e0e0e0; /* Texto claro */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
