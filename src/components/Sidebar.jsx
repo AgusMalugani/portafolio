@@ -1,5 +1,4 @@
 import { useState } from "react";
-import imgPerfil from "../assets/foto-perfil2.png";
 
 function Sidebar() {
   const [isOpen, setIsOpen] = useState(false); // Para el menú hamburguesa
@@ -14,9 +13,9 @@ function Sidebar() {
         {/* Imagen de perfil */}
         <div className="flex justify-center mb-6">
           <img
-            src={imgPerfil}
+            src="https://res.cloudinary.com/dxt4qdckz/image/upload/v1743540322/saphire/Foto-Perfil.jpg.jpg"
             alt="agusMalugani"
-            className="w-27 h-27 object-cover"
+            className="w-35 h-35 rounded-full object-cover"
           />
         </div>
 
