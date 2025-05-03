@@ -18,6 +18,15 @@ const projects = [
     linkVideo: null,
     technologies: [ "NestJs", "TypeScript", "PostgreSQL", "JWT"],
     image: "https://res.cloudinary.com/dxt4qdckz/image/upload/f_auto,q_auto/jjdncy7rprzkjm6qz1gm",
+  },
+  {
+    title: "HogarExpert",
+    description: "Plataforma que conecta a usuarios con proveedores de servicios para el hogar. Los proveedores ofrecen una variedad de servicios, y los clientes pueden contratar a aquellos de su zona. Los usuarios pueden enviar un mensaje detallando lo que necesitan, recibir un presupuesto y, si están conformes, aceptarlo. Al finalizar el trabajo, el usuario podrá cerrar la orden y dejar un comentario sobre el proveedor, que se mostrará en su perfil",
+    repoBack: "https://github.com/AgusMalugani/HogarExpertBack",
+    repoFront: "https://github.com/AgusMalugani/HogarExpertFront",
+    linkVideo: null,
+    technologies: [ "Java", "SpringBoot", "MySQL", "JWT","React"],
+    image: "https://res.cloudinary.com/dxt4qdckz/image/upload/f_auto,q_auto/jecttwxvq1fml7h4xw2x",
   }
 ];
 
