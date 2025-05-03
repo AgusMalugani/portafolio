@@ -3,7 +3,7 @@
 
 /* Tema claro */
 .light-theme {
-    background-color: #ffffff; /* Fondo blanco */
+    background-color: #ebebeb; /* Fondo blanco */
     color: #000000; /* Texto negro */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
     transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
